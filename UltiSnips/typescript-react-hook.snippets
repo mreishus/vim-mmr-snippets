@@ -1,0 +1,30 @@
+snippet thc "TypeScript React Hook Component"
+import React, { useState, useEffect, useContext } from "react";
+import classnames from "classnames";
+
+interface Props {
+}
+
+export const ${1:Thing} = ({}: Props) => {
+	return (<div>
+		$0
+	</div>);
+};
+export default $1;
+endsnippet
+
+snippet thcr "TypeScript React Hook Component (Redux)"
+import React, { useState, useEffect, useContext } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import classnames from "classnames";
+
+interface Props {
+}
+
+export const ${1:Thing} = ({}: Props) => {
+	return (<div>
+		$0
+	</div>);
+};
+export default $1;
+endsnippet
