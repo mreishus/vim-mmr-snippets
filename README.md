@@ -25,4 +25,3 @@ Use these definitions in React: `rhc` and `rhcr` for a new *React Hook Component
 In Typescript, use `thc` and `thcr` for a new React Hook Component.  These are
 mostly the same as the react versions above, but they add an empty Props
 interface.
-
